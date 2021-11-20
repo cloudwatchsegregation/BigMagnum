@@ -1,3 +1,4 @@
+
 class ForsetAnimal
 {
 			void eat()
@@ -35,6 +36,26 @@ class Sample implements reservebank
 	{
 		System.out.println("Provide Govt bonds for particular period only");
 	}
+public class BlueprintForestAnimal extends ForsetAnimal  implements Lion, Dog		
+		{
+
+			public void show()
+			{
+				System.out.println("Hunting");  
+			}
+			public void display()
+			{
+				System.out.println("Barking");
+			}
+			public static void main(String[] args)
+			{
+				BlueprintForestAnimal ba=new BlueprintForestAnimal();
+				ba.display();
+				ba.show();
+				ba.eat();
+				
+			}
+
 public static void main(String args[])
 {
 	
