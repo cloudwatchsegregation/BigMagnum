@@ -1,3 +1,20 @@
+class ForsetAnimal
+{
+			void eat()
+			{
+				System.out.println("Eating");
+				
+			}
+}
+			interface Lion
+			{
+				public void show();
+			}
+		     interface Dog
+			{
+				public void display();
+			}
+}
 public interface reservebank
 {
  void money();
